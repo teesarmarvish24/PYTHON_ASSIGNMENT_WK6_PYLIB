@@ -1,14 +1,14 @@
 # PYTHON_ASSIGNMENT_WK6_PYLIB
 This is for the ubuntu enhanced python library by plp academy 
 
-Ubuntu_Requests Image Fetcher
+# Ubuntu_Requests Image Fetcher
 
 "I am because we in are." - Ubuntu Philosophy
 
 This project is a simple Python script, inspired by the Ubuntu philosophy of community and sharing. It connects to the global community of the internet to respectfully fetch and save shared image resources from a URL.
 
 
-Ubuntu Principles in Action
+# Ubuntu Principles in Action
 
 1. Community: Connects to the wider web to fetch shared resources.
 
@@ -17,7 +17,7 @@ Ubuntu Principles in Action
 3. Sharing & Practicality: Organizes the fetched images into a Fetched_Images directory for later appreciation and use.
 
 
-Features
+# Features
 
 1. Prompts the user for a direct image URL.
 
@@ -32,7 +32,7 @@ Features
 6. If no filename is found, it inspects the content-type header to create a fallback name (e.g., downloaded_image.png).
 
 
-Setup and Installation
+# Setup and Installation
 
 Clone the repository:
 (Once you have created it on GitHub)
@@ -50,13 +50,13 @@ source venv/bin/activate
 py -m venv venv
 .\venv\Scripts\activate
 
-Install dependencies:
+# Install dependencies:
 This script requires the requests library.
 
 pip install requests
 
 
-How to Run
+# How to Run
 
 Make sure your virtual environment is activated.
 
@@ -69,7 +69,7 @@ Example: https://images.unsplash.com/photo-1516214104703-d870798883c5
 
 The script will connect, download the image, and save it to the Fetched_Images directory.
 
-Example Output
+# Example Output
 
 Welcome to the Ubuntu Image Fetcher
 A tool for mindfully collecting images from the web
